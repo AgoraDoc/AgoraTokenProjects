@@ -17,7 +17,7 @@ var options = {
 function fetchToken(uid, channelName, tokenRole) {
 
     return new Promise(function (resolve) {
-        axios.post('http://<Your Host URL and port>/fetch_rtc_token', {
+        axios.post('http://localhost:8082/fetch_rtc_token', {
             uid: uid,
             channelName: channelName,
             role: tokenRole

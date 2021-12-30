@@ -31,9 +31,14 @@ func generateRtcToken(int_uid uint32, channelName string, role rtctokenbuilder.R
 	// Number of seconds after which the token expires.
 	// For demonstration purposes the expiry time is set to 40 seconds. This shows you the automatic token renew actions of the client.
 	tokenExpireTimeInSeconds := uint32(40)
-	privilegeExpireTimeInSeconds := uint32(60)
+	joinChannelPrivilegeExpireTimeInSeconds := uint32(40)
+	pubAudioPrivilegeExpireTimeInSeconds := uint32(40)
+	pubVideoPrivilegeExpireTimeInSeconds := uint32(40)
+    pubDataStreamPrivilegeExpireTimeInSeconds := uint32(40)
 
-	result, err := rtctokenbuilder.BuildTokenWithUid(appID, appCertificate, channelName, int_uid, role, tokenExpireTimeInSeconds, privilegeExpireTimeInSeconds)
+	// result, err := rtctokenbuilder.BuildTokenWithUid(appID, appCertificate, channelName, int_uid, role, expireTimeInSeconds)
+	result, err := rtctokenbuilder.BuildTokenWithUidAndPrivilege(appID, appCertificate, channelName, int_uid, role, tokenExpireTimeInSeconds,
+		joinChannelPrivilegeExpireTimeInSeconds, pubAudioPrivilegeExpireTimeInSeconds, pubVideoPrivilegeExpireTimeInSeconds, pubDataStreamPrivilegeExpireTimeInSeconds)
 	if err != nil {
 		fmt.Println(err)
 	} else {

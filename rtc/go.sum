@@ -1,3 +1,7 @@
 github.com/AgoraIO/Tools v0.0.0-20210806171822-0630dba41e89 h1:rCrf4BPu9F5C6iyM06hoTVOdWe/v2yZZMj6IDjDWaIU=
 github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20210806171822-0630dba41e89 h1:2a+Ornm2IvLtNBid9HpHnQNU+BA9kA1UXD726bUUnK8=
 github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20210806171822-0630dba41e89/go.mod h1:4bXIK0ntDk9CqAXobmomWd7dedbfNv/aaIpmpqqzt+A=
+github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20211221132014-fa67e5ccec34 h1:igE1ChcJ4G+eIKdWSIsZ+KL5ShngRcmfdNCEM7Jxr5Q=
+github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20211221132014-fa67e5ccec34/go.mod h1:4bXIK0ntDk9CqAXobmomWd7dedbfNv/aaIpmpqqzt+A=
+github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20211229082627-90dc8466cbc9 h1:AE1YmIwtsC7CjX1VzZio8vZPNtU15dxwODH3hr0FaME=
+github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20211229082627-90dc8466cbc9/go.mod h1:4bXIK0ntDk9CqAXobmomWd7dedbfNv/aaIpmpqqzt+A=

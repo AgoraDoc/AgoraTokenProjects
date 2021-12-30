@@ -28,7 +28,7 @@ var role rtctokenbuilder.Role
 func generateRtcToken(int_uid uint32, channelName string, role rtctokenbuilder.Role){
 
 	appID := "<Your App ID>"
-	appCertificate := "<Your App Certificate>"
+	appCertificate := "<Your App Cert>"
 	// Number of seconds after which the token expires.
 	// For demonstration purposes the expiry time is set to 40 seconds. This shows you the automatic token renew actions of the client.
 	expireTimeInSeconds := uint32(40)
